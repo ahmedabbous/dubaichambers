@@ -1,0 +1,25 @@
+﻿.sub-page {
+    padding: 60px 0;
+    h1 {
+        font-size: 4rem;
+
+    }
+    h2 {
+        font-size: 3rem;
+
+    }
+    h3 {
+        font-size: 2.2em;
+      
+    }
+    .main-title {
+        margin-bottom: 60px;
+    }
+
+    a {
+        color: $lightBlue;
+        &:hover {
+            color: $brandSecondary;
+        }
+    }
+}

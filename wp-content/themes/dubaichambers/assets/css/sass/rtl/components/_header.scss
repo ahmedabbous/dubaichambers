@@ -1,0 +1,30 @@
+.ar {
+
+
+    .burger-slide {
+        right: auto;
+        left: 70px;
+        transition-timing-function: cubic-bezier(10, 2, 3, 1);
+        transform: translateX(-100%);
+        background: linear-gradient(90deg, rgba(1,55,100,1) 2%, rgba(1,55,100,0.8757878151260504) 50%, rgba(1,55,100,0) 98%);
+    
+        &.open {
+            transform: translateX(-0rem);
+            right: auto;
+            left: 0;
+        }
+        .burger-herder {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 40px;
+            .buger-close {
+                color: $white;
+                font-size: 1.75rem;
+            }
+        }
+        .burger-nav-list {
+            text-align: left;
+        }
+    }
+}

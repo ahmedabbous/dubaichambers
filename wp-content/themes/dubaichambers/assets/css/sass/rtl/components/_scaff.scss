@@ -1,0 +1,53 @@
+﻿.ar {
+  font-family: $fontBaseRtl;
+  direction: rtl;
+  letter-spacing: 0px;
+  text-align: right;
+  *{
+    font-family: $fontBaseRtl;
+  }
+  body{
+    font-family: $fontBaseRtl;
+    letter-spacing: 0px; 
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    font-family: 'Bahij TheSansArabic';
+  }
+
+
+  .box-r-40 {
+    padding-right: 0px;
+    padding-left: 60px;
+  }
+  .box-l-40 {
+    padding-left: 0px;
+    padding-right: 60px;
+  }
+
+  .top-borderline {
+    &::before {
+        left: auto;
+        right: 0;
+    }
+  }
+
+  .list-style {
+    li {
+      padding-left: 0;
+      padding-right: 25px;
+      &::before {
+        left: auto;
+        right: 0;
+      }
+    }
+  }
+
+  .decimal-list {
+    margin-left: 0;
+    margin-right: 1em;
+  }
+  
+ 
+} 

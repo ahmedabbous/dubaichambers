@@ -1,0 +1,41 @@
+//plugins
+@import "plugins/bootstrap";
+@import "plugins/animate";
+@import "plugins/aos";
+@import "plugins/jquery-ui";
+
+//Components
+@import "components/variables";
+@import "components/effects";
+@import "components/scaff";
+@import "components/mixins";
+@import "components/fiicons";
+@import "components/fonts";
+@import "components/header";
+@import "components/footer";
+
+
+
+//Pages
+@import "pages/home";
+@import "pages/subpage";
+
+//Responsive
+@import "responsive/highres";
+@import "responsive/desktop";
+@import "responsive/tablet";
+@import "responsive/tablet-and-mobile";
+@import "responsive/mobile";
+
+
+
+// RTL
+
+//Pages
+@import "rtl/pages/home";
+@import "rtl/pages/subpage";
+//Components
+@import "rtl/components/scaff";
+@import "rtl/components/header";
+@import "rtl/components/footer";
+@import "rtl/components/mixins";

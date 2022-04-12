@@ -1,0 +1,59 @@
+.ar {
+    footer {
+    
+        .footer-bottom {
+            .social-media {
+                
+                ul {
+                    li {
+                        &:first-child {
+                            margin-left: 15px;
+                            margin-right: 0;
+                        }
+    
+                        &:last-child {
+                            margin-right: 15px;
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+    
+            .bootom-links {
+                ul {
+                    li {
+                        border-right: none;
+                        border-left: solid 1px $brandPrimary;
+                        &:last-child {
+                            border: none;
+                            padding-right: 15px;
+                            padding-left: 0;
+                        }
+                        &:first-child {
+                            padding-left: 15px;
+                            padding-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 575px) {
+        footer {
+            .footer-bottom {
+                .bootom-links {
+                    ul {
+                        li {
+                            border: none;
+                            padding: 0 !important;
+
+                        }
+                    }
+                }
+        
+            }
+        }
+    }
+    
+}

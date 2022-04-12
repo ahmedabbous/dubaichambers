@@ -1,0 +1,29 @@
+﻿//iPad Pro
+@media screen and (min-width:1300px) and (min-height:960px) {
+  
+}
+
+@media screen and (min-width:1024px) and (min-height:1300px) {
+  
+}
+
+// end ///
+
+// iPad
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+
+    .hide-in-desktop {
+        display: block !important;
+    }
+
+}
+// end ///
+
+@media screen and (max-width: 767px) {
+}

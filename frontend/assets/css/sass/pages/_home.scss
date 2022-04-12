@@ -1,0 +1,482 @@
+﻿.home-banner {
+    position: relative;
+    height: 380px;
+    overflow: hidden;
+    img {
+        min-width: 100%;
+        min-height: 100%;
+        position: absolute;
+        left:  50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.about-dc {
+    
+    overflow: hidden;
+
+    .focus-wrap {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: calc(100% + 100%);
+            height: 100%;
+            background-color: $brandTertiary;
+            border-left: solid 1px $white;
+            z-index: -1;
+        }
+        .title-wrap {
+            span {
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.chambers-list {
+    background-color: $white;
+    .chambers-card {
+        display: flex;
+        .wrap {
+            .logos {
+                img {
+                    width: 244px;
+                }
+            }
+
+            .action-links {
+                margin-top: 20px;
+            }
+        }
+        &.center {
+            justify-content: center;
+        }
+        &.right {
+            justify-content: flex-end;
+        }
+    }
+}
+
+.dubai-skyline {
+    position: relative;
+    height: 380px;
+    background-color: $brandSecondary;
+    display: flex;
+    justify-content: flex-end;
+    .skyline-bg {
+        width: 72%;
+        height: 380px;
+        position: relative;
+        overflow: hidden;
+        .bg-img {
+            min-width: 100%;
+            min-height: 100%;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+.dc-strategy {
+    position: relative;
+    border-bottom: solid 1px $white;
+    &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        background-color: $brandTertiary;
+        border-left: solid 1px $white;
+    }
+    .strategy-wrap {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 1;
+        .strategy-content {
+            width: 50%;
+
+            .strategy-list {
+                li {
+                    font-size: 1.125rem;
+                    border-bottom: solid 1px $brandSecondary;
+                    padding: 15px 0;
+                    font-weight: 500;
+                }
+            }
+
+            &.title-content {
+                position: relative;
+                .title-wrap {
+                    max-width: 357px;
+                }
+                .dc-watermark {
+                    position: absolute;
+                    right: 0;
+                    bottom: 80px;
+                    width: 56px;
+                }
+            }
+        }
+    }
+}
+
+.dc-chairman {
+    position: relative;
+    border-bottom: solid 1px $white;
+    .chairman-wrap {
+        display: flex;
+        justify-content: space-between;
+        .chairman-content {
+            width: 50%;
+            .title-wrap {
+                max-width: 347px;
+            }
+            p {
+                &.bold {
+                    margin: 40px 0 60px 0;
+                    font-weight: 500;
+                    font-weight: 1.125rem;
+                }
+            }
+
+            .chairman-info {
+                .name {
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .chairman-img {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow: hidden;
+        img  {
+            min-width: 100%;
+            min-height: 100%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+.dc-members {
+    position: relative;
+    border-bottom: solid 1px $white;
+    overflow: hidden;
+
+    .members-wrap {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 1;
+        .members-content {
+            width: 50%;
+            &.title-content {
+                display: flex;
+                justify-content: flex-end;
+                .title-wrap {
+                    text-align: right;
+                    max-width: 426px;
+                }
+            }
+            &.content-wrap {
+                color: $white;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: calc(100% + 100%);
+                    height: 100%;
+                    background-color: $brandPrimary;
+                    border-left: solid 1px $white;
+                    z-index: -1;
+                }
+
+                .top-borderline {
+                    margin-top: 40px;
+                    font-weight: 1.125rem;
+                    font-weight: 500;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+
+.dc-board-members {
+    position: relative;
+    border-bottom: solid 1px $white;
+    .board-members-wrap {
+        display: flex;
+        justify-content: flex-end;
+        .board-members-content {
+            width: 50%;
+            .board-members-list {
+                li {
+                    border-bottom: solid 1px $brandPrimary;
+                    padding: 10px 0;
+                    font-size: 1.125rem;
+                }
+            }
+
+            .more-member {
+                margin-top: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                p {
+                    max-width: 470px;
+                    font-size: 0.875rem;
+                    margin: 0;
+                }
+                .action-box {
+                    height: 52px;
+                }
+            }
+
+        }
+    }
+
+    .member-img {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        img  {
+            min-width: 100%;
+            min-height: 100%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .home-banner {
+        height: 300px;
+        img {
+            height: 100%;
+        }
+    }
+
+    .about-dc {
+        .focus-wrap {
+            &::after {
+                left: 50%;
+                transform: translateX(-50%);
+                border-left: none;
+                border-top: solid 1px $white;
+            }
+        }
+    }
+
+    .chambers-list {
+        .chambers-card {
+            display: flex;
+            .wrap {
+                .logos {
+                    img {
+                        width: 200px;
+                    }
+                }
+            }
+        }
+    }
+
+    .dubai-skyline {
+        .skyline-bg {
+            width: 85%;
+            .bg-img {
+                left: 0;
+            }
+        }
+    }
+
+    .dc-strategy {
+        &::after {
+            display: none;
+        }
+        .strategy-wrap {
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            .strategy-content {
+                width: 100%;
+    
+                &.title-content {
+                    min-height: 280px;
+                    .dc-watermark {
+                        bottom: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .dc-chairman {
+        .chairman-wrap {
+            flex-direction: column;
+            .chairman-content {
+                width: 100%;
+            }
+        }
+    
+        .chairman-img {
+            width: 100%;
+            height: auto;
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            img  {
+                position: relative;
+                left: auto;
+                top: auto;
+                transform: none;
+                width: calc(100% + -10%);
+                min-width: auto;
+                min-height: auto;
+            }
+        }
+    }
+
+    .dc-members {
+        .members-wrap {
+            flex-direction: column;
+            .members-content {
+                width: 100%;
+                &.title-content {
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                &.content-wrap {
+                    &::after {
+                        left: 50%;
+                        transform: translateX(-50%);
+                        border-left: none;
+                        border-top: solid 1px $white;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .dc-board-members {
+        .board-members-wrap {
+            flex-direction: column;
+            justify-content: flex-start;
+            .board-members-content {
+                width: 100%;
+    
+            }
+        }
+    
+        .member-img {
+            width: 100%;
+            height: auto;
+            position: relative;
+            top: auto;
+            left: auto;
+            display: flex;
+            justify-content: flex-end;
+            img  {
+                min-width: auto;
+                min-height: auto;
+                position: relative;
+                left: auto;
+                top: auto;
+                width: calc(100% + -10%);
+                transform: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .chambers-list {
+        .chambers-card {
+            margin: 20px 0;
+            .wrap {
+                .logos {
+                    img {
+                        max-width: 250px;
+                        width: 100%;
+                    }
+                }
+            }
+            &.center {
+                justify-content: flex-start;
+            }
+            &.right {
+                justify-content: flex-start;
+            }
+        }
+    }
+
+    .dc-board-members {
+        .board-members-wrap {
+            .board-members-content {
+    
+                .more-member {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    p {
+                        max-width: none;
+                        margin-bottom: 10px;
+                    }
+                    .action-box {
+                        height: 52px;
+                    }
+                }
+    
+            }
+        }
+    
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .dc-chairman {
+        .chairman-img {
+            img  {
+                width: calc(100% + -15px);
+            }
+        }
+    }
+
+    .dc-board-members {
+    
+        .member-img {
+            img  {
+                width: calc(100% + -15px);
+            }
+        }
+    }
+}

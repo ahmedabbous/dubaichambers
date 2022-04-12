@@ -1,0 +1,102 @@
+﻿.ar {
+
+    .about-dc {
+        .focus-wrap {
+            &::after {
+                right: 0;
+                left: auto;
+                border-left: none;
+                border-right: solid 1px $white;
+            }
+        }
+    }
+    
+    .dc-strategy {
+        &::after {
+            right: auto;
+            left: 0;
+            border-left: none;
+            border-right: solid 1px $white;
+        }
+        .strategy-wrap {
+            .strategy-content {
+    
+                &.title-content {
+                    .dc-watermark {
+                        right: auto;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+    
+    .dc-chairman {
+    
+        .chairman-img {
+            right: auto;
+            left: 0;
+        }
+    }
+    
+    .dc-members {  
+        .members-wrap {
+            .members-content {
+                &.title-content {
+                    justify-content: flex-end;
+                    .title-wrap {
+                        text-align: left;
+                    }
+                }
+                &.content-wrap {
+                    color: $white;
+                    position: relative;
+    
+                    &::after {
+                        left: auto;
+                        right: 0;
+                        border-left: none;
+                        border-right: solid 1px $white;
+                    }
+    
+                }
+            }
+        }
+    }
+    
+    
+    .dc-board-members {
+        .member-img {
+            left: auto;
+            right: 0;
+        }
+    }
+
+
+
+    @media screen and (max-width: 991px) {
+
+        .dubai-skyline {
+            .skyline-bg {
+                .bg-img {
+                    left: auto;
+                    right: 0;
+                }
+            }
+        }
+
+        .dc-members {
+            .members-wrap {
+                .members-content {
+                    &.content-wrap {
+                        &::after {
+                            border-right: none;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}

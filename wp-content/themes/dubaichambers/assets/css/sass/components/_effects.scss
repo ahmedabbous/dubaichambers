@@ -1,0 +1,41 @@
+@keyframes dash {
+    to {
+        stroke-dashoffset: 220;
+    }
+    }
+ @keyframes dash2 {
+        to {
+            stroke-dashoffset: 230;
+        }
+        }
+        @keyframes dash3 {
+            to {
+                stroke-dashoffset: 235;
+            }
+            }
+ @-webkit-keyframes slideInUp {
+            from {
+                -webkit-transform: translate3d(0, 20px, 0);
+                transform: translate3d(0, 20px, 0);
+                visibility: visible;
+            }
+        
+            to {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+        }
+        
+@keyframes slideInUp {
+            from {
+                -webkit-transform: translate3d(0, 20px, 0);
+                transform: translate3d(0, 20px, 0);
+                visibility: visible;
+            }
+        
+            to {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+        }
+        

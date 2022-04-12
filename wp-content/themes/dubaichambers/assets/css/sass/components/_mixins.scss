@@ -1,0 +1,16 @@
+.action-box {
+    font-size: 0.875rem;
+    color: $brandPrimary;
+    border: solid 1px $bordeBlueOne;
+    padding: 5px 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    text-transform: uppercase;
+    &:hover {
+        color: $white;
+        background-color: $brandPrimary;
+        border-color: $brandPrimary;
+    }
+}

@@ -1,0 +1,32 @@
+﻿.ar {
+  font-family: $fontBaseRtl;
+  direction: rtl;
+  letter-spacing: 0px;
+  text-align: right;
+  *{
+    font-family: $fontBaseRtl;
+  }
+  body{
+    font-family: $fontBaseRtl;
+    letter-spacing: 0px; 
+  }
+
+
+  .box-r-40 {
+    padding-right: 0px;
+    padding-left: 60px;
+  }
+  .box-l-40 {
+    padding-left: 0px;
+    padding-right: 60px;
+  }
+
+  .top-borderline {
+    &::before {
+        left: auto;
+        right: 0;
+    }
+  }
+  
+ 
+} 
